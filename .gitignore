@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+
+# Environment and local database
+.env
+.env.*
+!.env.example
+backend/edulearn.sqlite
+
+# Logs and operating system files
+npm-debug.log*
+.DS_Store
+Thumbs.db
